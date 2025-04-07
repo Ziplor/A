@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shark Stloop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white min-h-screen p-6">
+
+  <header class="flex items-center justify-between mb-10">
+    <h1 class="text-3xl font-bold">Shark Stloop</h1>
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path d="M4 6h16M4 12h16M4 18h16"/>
+    </svg>
+  </header>
+
+  <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Card 1 -->
+    <div class="bg-green-500 text-black rounded-2xl p-6 shadow hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-4">13+ to 13-</h2>
+      <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800">Go</button>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-green-500 text-black rounded-2xl p-6 shadow hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-4">13- to 13+</h2>
+      <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800">Go</button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-green-500 text-black rounded-2xl p-6 shadow hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-4">Get TikTok Live Videos</h2>
+      <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800">Fetch</button>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-green-500 text-black rounded-2xl p-6 shadow hover:shadow-xl transition">
+      <h2 class="text-xl font-semibold mb-4">Get DSC Token</h2>
+      <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800">Generate</button>
+    </div>
+  </main>
+
+  <footer class="mt-16 grid grid-cols-2 gap-4">
+    <button class="bg-red-600 hover:bg-red-700 text-white py-3 rounded-xl">TripleHook</button>
+    <button class="bg-red-600 hover:bg-red-700 text-white py-3 rounded-xl">SQL Inject</button>
+  </footer>
+
+</body>
+</html>
